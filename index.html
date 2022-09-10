@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Internal Styling -->
+  <style>
+    h2 {
+      color: violet;
+      border: 3px solid yellowgreen;
+    }
+
+    /* Since only internal CSS has important, it takes top priority */
+    img {
+      height: 300px !important;
+      width: 300px !important;
+    }
+  </style>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+
+  <!-- Inline Styling - use style attribute -->
+  <!-- <h1 style="color: purple; border: 3px solid yellow;">Some Content</h1>
+
+  <h2>Some Content inside H2</h2>
+
+  <h3>Some Content in H3</h3> -->
+  <img src="photo.avif" alt="Scenary" style="height: 200px; width: 200px" />
+
+
+
+</body>
+
+</html>

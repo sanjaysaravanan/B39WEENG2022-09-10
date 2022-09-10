@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <input type="email" />
+  <br />
+  <input type="date" />
+  <br />
+  <input type="text" />
+  <br />
+  <input type="password" />
+  <br />
+  <input type="radio" />
+  <br />
+  <input type="file" />
+  <br />
+  <input type="datetime-local" />
+  <br />
+  <input type="range" />
+  <br />
+  <input type="checkbox" />
+  <br /> -->
+
+  <!-- 
+    1. Name -> text
+    2. Gender (Male, Female) -> radio
+    3. Devices You have (Mobile, Latop, Headphone, Watch, Calculator) -> Checkbox
+    4. Aadhar No -> num
+    5. DOB -> Date
+    6. email -> email
+
+    Submit and Rest BTNs
+   -->
+
+  <form onsubmit="console.log('Submitting Form')">
+    <label for="fullName">Full Name:</label>
+    <br />
+    <input type="text" name="fullName" placeholder="Enter Your fullname" id="fullName" />
+    <br />
+    <label for="email">Email:</label>
+    <br />
+    <input type="email" name="email" placeholder="Enter Your Email" id="email" />
+    <br />
+    <input type="radio" name="gender" id="male" value="male" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">Female</label>
+    <br />
+    <input type="checkbox" name="devices" id="laptop" value="laptop" />
+    <label for="laptop">Laptop</label>
+    <br />
+    <input type="checkbox" name="devices" id="mobile" value="mobile" />
+    <label for="mobile">Mobile</label>
+    <br />
+    <input type="checkbox" name="devices" id="calculator" value="calculator" />
+    <label for="calculator">Calculator</label>
+    <br />
+    <!-- <button type="button">Click Me </button> -->
+    <input type="submit" />
+    <input type="reset" />
+  </form>
+</body>
+
+</html>

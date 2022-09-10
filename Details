@@ -1,0 +1,35 @@
+
+Topics:
+  table(design table task)
+
+  basic styling, CSS ---> Cascading Style Sheet --> beautification, cosmetic of webpage
+    styling possible only under certain keys with certain values
+      key: value ( set keys already defined for css with certains values )
+    property & value eg: color: red; --> color -> prop red -> value
+
+  forms:
+    input element, label
+    form submit
+  
+  ways to use css
+    inline
+      using CSS inside style attribute is called inline styling
+
+    internal
+      using CSS style tag is called internal styling
+
+    external
+      using css in external in external css file and linking it with link tag
+
+  
+  Priority:
+    Default Priority:
+      inline > line of execution ( internal or enternal ( which get executed the last takes over the priority ) ) of styles
+
+    Overwrite the Default:
+      use of important ---> overrride the default priority order.
+  
+  Next Session:
+    class vs id
+    display property: inline, block
+  
