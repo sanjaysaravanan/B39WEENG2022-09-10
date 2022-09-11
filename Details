@@ -1,6 +1,11 @@
 
 Topics:
   table(design table task)
+  Table: row & columns
+  thead -> table heading
+  tr -> table row
+  th -> cell heading
+  td -> cell data, align attr, colspan
 
   basic styling, CSS ---> Cascading Style Sheet --> beautification, cosmetic of webpage
     styling possible only under certain keys with certain values
